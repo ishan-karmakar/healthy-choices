@@ -1,0 +1,38 @@
+name: carb_counter
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera:
+  flutter_typeahead: ^4.6.2
+  http: ^0.13.6
+  tflite_flutter: ^0.10.1
+  image: ^4.0.17
+  csv: ^5.0.2
+  flutter_launcher_icons: ^0.13.1
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  image_path_android: "assets/food-logo.jpg"
+  background_color: "#ffffff"
+  theme_color: "#ffffff"
+  ios: false
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
