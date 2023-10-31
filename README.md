@@ -1,3 +1,3 @@
-# carb_counter
+# Healthy Choices
 
-A new Flutter project.
+The Github repository for my Congressional App Challenge submission.
